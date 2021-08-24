@@ -1,8 +1,9 @@
 *{
+    box-sizing: border-box;
     margin: 0px;
 }
 body{
-    background-color: teal;
+    background-color: cadetblue;
     color: rgb(0, 0, 0);
     font-family: 'Style Script', cursive;
 }
@@ -138,16 +139,19 @@ li {
     cursor: pointer;
 }
 .Sign-Up{
+    padding: 20px;
     background: cadetblue;
     height: 650px;
     display: flex;
     color: midnightblue;
     flex-direction: column;
+    
 }
 .Sign-Up h1{
-    padding: 10px;
+    padding: 20px;
 }
 .Nombre{
+
     width: 800px;
     height: 40px;
     background-color:rgb(255, 255, 255);
@@ -157,6 +161,7 @@ li {
     border-color: white;
 }
 .Apellido{
+
     width: 800px;
     height: 40px;
     background-color:rgb(255, 255, 255);
@@ -166,6 +171,7 @@ li {
     border-color: white;
 }
 .E-Mail{
+
     width: 800px;
     height: 40px;
     background-color:rgb(255, 255, 255);
@@ -175,6 +181,7 @@ li {
     border-color: white;
 }
 .Contraseña_2{
+
     width: 800px;
     height: 40px;
     background-color:rgb(255, 255, 255);
@@ -208,6 +215,7 @@ li {
     padding: 10px;
 }
 .Sign-In{
+    padding: 20px;
     background: rgb(87, 49, 255);
     height: 350px;
     display: flex;
@@ -221,6 +229,7 @@ li {
     padding: 10px;
 }
 .Contraseña{
+    padding: 10px;
     width: 800px;
     height: 40px;
     background-color:rgb(255, 255, 255);
@@ -267,15 +276,16 @@ li {
     text-align: center;
 }
 .Catalogo-Detalles img{
-    height: 65%;
+    height: 60%;
 }
 .Principal_8{
     height: 350px;
-    background: rgb(221, 206, 0);
+    background: rgb(131, 177, 78);
     display: flex;
     color: midnightblue;
 }
 .Contacto-Detalles{
+    width: 50%;
     height: inherit;
     display: flex;
     flex-direction:column ;
@@ -286,4 +296,7 @@ li {
 }
 .Contacto-Detalles img{
     width: 400px;
+}
+.Principal_8 h3{
+    color: rgb(0, 0, 0);
 }
