@@ -299,4 +299,305 @@ li {
 }
 .Principal_8 h3{
     color: rgb(0, 0, 0);
+}*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: cadetblue;
+    color: rgb(0, 0, 0);
+    font-family: 'Style Script', cursive;
+}
+
+.Buscador_h1{
+    color: gray;
+}
+.principal{
+    color: rgb(0, 0, 0);
+    background: rgb(131, 177, 78);
+    text-align: center;
+    padding: 100px;
+}
+.principal h1{
+    padding: 20px;
+}
+.input{
+    width: 1000px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    color: lightgray;
+}
+.Hogwarts{
+    background: rgb(37, 77, 255);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    }
+.Hogwarts h1{
+    color: rgb(74, 255, 89);
+    margin-bottom: 10px;
+}
+.Hogwarts p{
+    margin-bottom: 20px;
+}
+.principal_3{
+    background: rgb(197, 5, 255);
+    margin: 10px;
+    text-align: left;
+}
+.header{
+    position: fixed;
+    background: rgb(131, 177, 78);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1349px;
+}
+.header li{
+    height: inherit;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.logo img{
+    width: 89px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+
+}
+
+.principal img{
+    width: 600px;
+}
+h1{
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+}
+h1 strong{
+    color: rgb(194, 0, 0);
+}
+/*
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.unete{
+    height: 500px;
+    background: white;
+    display: flex;
+    color: midnightblue;
+}
+.unete-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.unete-detalles img{
+    height: 90%;
+}
+
+li {
+    cursor: pointer;
+}
+.Sign-Up{
+    padding: 20px;
+    background: cadetblue;
+    height: 650px;
+    display: flex;
+    color: midnightblue;
+    flex-direction: column;
+    
+}
+.Sign-Up h1{
+    padding: 20px;
+}
+.Nombre{
+
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+}
+.Apellido{
+
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+}
+.E-Mail{
+
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+}
+.Contraseña_2{
+
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+}
+.Verificar-Contraseña{
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+    margin-bottom: 10px;
+}
+.Sign-Up-Boton{
+    width: 300px;
+    height: 40px;
+    background-color:rgb(35, 156, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(211, 211, 211);
+    border-color: black;
+
+}
+.Sign-Up h2{
+    padding: 10px;
+}
+.Sign-In{
+    padding: 20px;
+    background: rgb(87, 49, 255);
+    height: 350px;
+    display: flex;
+    color: midnightblue;
+    flex-direction: column;
+}
+.Sign-In h1{
+    padding: 10px;
+}
+.Sign-In h2{
+    padding: 10px;
+}
+.Contraseña{
+    padding: 10px;
+    width: 800px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: text;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.Principal_6{
+    text-align: center;
+    background-color: rgb(151, 55, 0);
+    height: 200px;
+}
+.Principal_6 h1{
+    padding: 60px;
+    padding-bottom: 20px;
+}
+.Principal_6 button{
+    width: 300px;
+    height: 40px;
+    background-color:rgb(35, 156, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(211, 211, 211);
+    border-color: rgb(0, 0, 0);
+}
+.Principal_7{
+    height: 500px;
+    background: white;
+    display: flex;
+    color: midnightblue;
+}
+.Catalogo-Detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.Catalogo-Detalles img{
+    height: 60%;
+}
+.Principal_8{
+    height: 350px;
+    background: rgb(131, 177, 78);
+    display: flex;
+    color: midnightblue;
+}
+.Contacto-Detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.Contacto-Detalles img{
+    width: 400px;
+}
+.Principal_8 h3{
+    color: rgb(0, 0, 0);
 }
