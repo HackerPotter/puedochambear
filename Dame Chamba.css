@@ -17,9 +17,21 @@ body{
     background: rgb(131, 177, 78);
     text-align: center;
     padding: 100px;
+    height: 800px;
 }
 .principal h1{
     padding: 20px;
+}
+.principal button{
+    margin: 30px;
+    width: 300px;
+    height: 55px;
+    background-color:rgb(35, 156, 255);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(211, 211, 211);
+    border-color: black;
 }
 .input{
     width: 1000px;
@@ -243,8 +255,10 @@ li {
 
 .Principal_6{
     text-align: center;
-    background-color: rgb(151, 55, 0);
-    height: 200px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    
+    
 }
 .Principal_6 h1{
     padding: 60px;
@@ -280,7 +294,7 @@ li {
     height: 60%;
 }
 .Principal_8{
-    height: 350px;
+    height: 400px;
     background: rgb(131, 177, 78);
     display: flex;
     color: midnightblue;
@@ -300,4 +314,30 @@ li {
 }
 .Principal_8 h3{
     color: rgb(0, 0, 0);
+}
+
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo{
+    background: rgb(131, 177, 78);
+    width: 400px;
+    height: 400px;
+    border: 10px solid rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.Flexbox img{
+    width: 200px;
+    margin-top: 30px;    
 }
